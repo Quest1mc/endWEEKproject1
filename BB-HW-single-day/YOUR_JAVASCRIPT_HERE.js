@@ -1,17 +1,27 @@
 // Write your JS here
 let hero ={
-    name: "Hancock", 
-    superStrength: yes,
-    inventory: [],
-    health : 10,
-    weapon: {
-        type:"Hammer",
-        damage: 2,
+           name: "Hancock",
+           superStrength:10>2,
+           inventory: [],
+           health : 10,
+           weapon: {type:"Hammer",damage: 2,}
+};
+       
 
+          
+function rest(health) {
+        if (health.hero< 10 ){
+health.hero=10
+        }else {
+                health.hero = 10
+        }
+        
 
-    }
-
+        
 }
-expect(sinon.match.defined.test(rest)).to.equal(true)
-expect(sinon.match.defined.test(pickUpItem)).to.equal(true)
-expect(sinon.match.defined.test(equipWeapon)).to.equal(true)
+function pickUpItem() {
+        
+}
+function equipWeapon() {
+        
+}
