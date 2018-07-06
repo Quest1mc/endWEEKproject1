@@ -10,8 +10,9 @@ weapon :{
 }
 };
 hero.health = health
-function rest(hero ) {
-        return hero.health = 10
+function rest(hero) {
+        return hero.health = 10;
+        
         }
 function pickUpItem() {
         
