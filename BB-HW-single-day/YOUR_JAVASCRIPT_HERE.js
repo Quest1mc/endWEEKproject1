@@ -1,7 +1,7 @@
 // Write your JS here
 let hero ={
            name: "Hancock",
-           superStrength:10>2,
+           superStrength:true,
            inventory: [],
            health : 10,
            weapon: {type:"Hammer",damage: 2,}
@@ -9,7 +9,7 @@ let hero ={
        
 
           
-function rest(health) {
+function rest(hero[]) {
         if (health.hero< 10 ){
 health.hero=10
         }else {
