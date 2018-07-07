@@ -46,14 +46,19 @@ function addWeapon(){
         hero.inventory.push(hero.weapon={type:"dagger",damage: 2})
 }
 // And reassigns the `weapon` property to the first element of the inventory array
- function equipWeapon() { 
-         hero.weapon = hero.inventory[0];
-        return hero.weapon
-        }
+//  function equipWeapon2() { 
+//          hero.weapon = hero.inventory[0];
+//         return hero.weapon
+//         };
         
-        ;
         
+        
+function equipWeapon(hero){
+        if (hero.inventory.length === 0){}
+        else { hero.weapon = hero.inventory[0];
 
+        }
+};
 
 
 
