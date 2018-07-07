@@ -15,11 +15,11 @@ weapon :{
         damage: 2
 }
 };
-hero.health = health
-const testCreature = {}
+// hero.health = health
+// const testCreature = {}
 
-// And (re)assigns the health property of the object the value 10 ‣
-// Returns the object from the function
+// xAnd (re)assigns the health property of the object the value 10 ‣
+// xReturns the object from the function
 
         
 
@@ -37,22 +37,20 @@ function rest(hero) {
 
 // Adds the weapon object as the last element of the inventory array of the hero-like object
 
-function pickUpItem(weapon,hero) {
-        hero.push(weapon);return hero.weapon
+function pickUpItem(hero,hero) {
+        hero.push(hero)
+        return hero
         }
 
 
 // And reassigns the `weapon` property to the first element of the inventory array
-function equipWeapon(hero) {
-        
+function equipWeapon(weapon,hero) { hero.weapon = weapon[0];
+        return hero.weapon
+   
         };
-
         
-const outPut = rest(testCreature)
-// When the dagger is clicked it will add a weapon-like object to the inventory array with `type`: `dagger` and `damage`: 2
-dagger.onclick = function () { /*do stuff here */ };
+
+
+
+
 // When the bag is clicked it will equip the hero with the first item in the inventory array
-bag.onclick = function () { /*do stuff here */ };
-
-        
-// let CheckInnIn = document.getElementById("inn");
