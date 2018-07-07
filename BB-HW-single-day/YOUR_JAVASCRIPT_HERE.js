@@ -1,8 +1,13 @@
 // Write your JS here
-// Hero object should have a heroic property that is a boolean
+// xDeclare a variable `hero` and assign it an object ‣
+// xHero object should have a name property that is a string ‣
+//x Hero object should have a heroic property that is a boolean ‣
+// xHero object should have an inventory property that is an empty array ‣
+// xHero object should have an health property that is 10 ‣
+// xHero object should have a weapon is an object with a type which is a string and damage which is 2
 let hero = {
 name : 'Stefan',
-heroic_property : 10 > 2 ,
+heroic : true,
 inventory : [],
 health : 10,
 weapon :{
