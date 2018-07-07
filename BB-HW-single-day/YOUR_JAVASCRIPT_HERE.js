@@ -37,17 +37,21 @@ function rest(hero) {
 
 // Adds the weapon object as the last element of the inventory array of the hero-like object
 
-function pickUpItem(hero,hero) {
-        hero.push(hero)
+function pickUpItem(hero,object) {
+        hero.inventory.push(object)
         return hero
         }
 
-
+function addWeapon(){
+        hero.inventory.push(hero.weapon={type:"dagger",damage: 2})
+}
 // And reassigns the `weapon` property to the first element of the inventory array
-function equipWeapon(weapon,hero) { hero.weapon = weapon[0];
+ function equipWeapon() { 
+         hero.weapon = hero.inventory[0];
         return hero.weapon
-   
-        };
+        }
+        
+        ;
         
 
 
