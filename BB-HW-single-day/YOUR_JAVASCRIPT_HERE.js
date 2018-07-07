@@ -1,7 +1,8 @@
 // Write your JS here
+// Hero object should have a heroic property that is a boolean
 let hero = {
 name : 'Stefan',
-property : Boolean,
+heroic_property : 10 > 2 ,
 inventory : [],
 health : 10,
 weapon :{
@@ -12,6 +13,8 @@ weapon :{
 hero.health = health
 const testCreature = {}
 
+// And (re)assigns the health property of the object the value 10 ‣
+// Returns the object from the function
 function rest(hero) {
         hero.health = 10;
         return { health: 10
